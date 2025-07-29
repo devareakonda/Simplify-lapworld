@@ -1,0 +1,207 @@
+.nav-item{
+  margin-left: 10px;
+}
+.kard{
+  width: 30%;
+  height: auto;
+  margin-left: 90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: scale-up-ver-top;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+.viewbtn{
+  margin-left: 850px;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+.foot{
+  width: 100%;
+  height: auto ;
+  background-color: black;
+  color: white;
+  display: flex;
+  
+}
+.foot  p:hover{
+ color: rgb(118, 111, 111);
+  transition: background-color 0.3s ease;
+}
+.foot  h4:hover{
+  color: rgb(118, 111, 111);
+  transition: background-color 0.3s ease;
+}
+.finput:focus{
+color: blue ;
+  border-color: #00376e;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,123,255,0.25);
+}
+.finput{
+  /* width: 50px; */
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.foot  i:hover{
+  color: rgb(164, 4, 4);
+  transition: background-color 0.3s ease;
+}
+.foot p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 5px;
+}
+.foot i{
+  margin: 10px;
+}
+.footsec1{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-left: 200px;
+}
+.footsec2{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-left: 180px;
+}
+.footsec3{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+}
+.card-body h5{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: black;
+}
+.card-body p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+.card-body button{
+  margin-left: 60px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card-body button:hover{
+  background-color: #032f5c;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.firstdiv{
+  width: 69%;
+  height: auto;
+  background-color: #f8f9fa;
+  display: inline-block;
+  border-radius: 5px;
+}
+.kartwo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.seconddiv{
+  width: 29%;
+  height: auto;
+  background-color: #f8f9fa;
+   display: inline-block;
+   border-radius: 5px;
+   margin-left: 10px;
+   
+ }
+.kar {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 110px; */
+}
+.karone{
+  width: 100%;
+  height: auto;
+  background-color: #f8f9fa;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px;  
+}
+.navbut{
+  width: 130px;
+  height: 50px;
+  color: black;
+  background-color: rgb(232, 232, 232);
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.navbut:hover{
+  color: #ffff;
+  background-color: black;
+  border-radius: 30px;
+}
+.lapilogo{
+  width: 100%;
+  height: 120px;
+}
+
+/* @keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+} */
+.seemore{
+  margin-left: 890px;
+  margin-top: 50px;
+  width: 130px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: 3px 5px 3px white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.seemore:hover{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.87);
+}
+.Contact{
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
