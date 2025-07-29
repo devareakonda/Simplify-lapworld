@@ -6,9 +6,9 @@ function Navbar() {
     <div className='container-fluid bg-dark text-white'>
         <div className='navbar'>
             <div className='navbar navbar-expand-md'>
-              <a className='navbar-brand'>
+              <NavLink className='navbar-brand'>
                   <img className='lapilogo' src="lapi logo.png" alt=""/>
-              </a>
+              </NavLink>
                 <div className='navbar-nav'>
                     <NavLink className="nav-item" to="/home"><button className='navbut'>Home</button></NavLink>
                      <NavLink className="nav-item" to="/HP"><button className='navbut'>HP</button></NavLink>
